@@ -1,0 +1,8 @@
+.rainbow{
+    position: absolute;
+    top: 105px;
+    left: 0;
+    width: 205px;
+    height: 100px;
+    background-image: linear-gradient(to right,red,orange,yellow,green,blue,purple);
+}

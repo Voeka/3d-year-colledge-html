@@ -1,0 +1,38 @@
+
+li{
+    font-family: arial;
+    font-size: 20px;
+    color:whitesmoke;
+    background-color: gray;
+    margin-bottom: 30px;
+}
+
+li{
+    list-style-type: none;
+    border: 2px solid rgb(97, 97, 97);
+    margin: 8px;
+    padding: 4px;
+    text-align: center;
+    max-width: 140px;
+}
+
+a{
+    text-decoration: none;    
+}
+
+li a:visited{
+    color: whitesmoke;
+}
+
+li:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    color: black;
+}
+li a:hover{
+    color: black;
+}
+
+
+
+

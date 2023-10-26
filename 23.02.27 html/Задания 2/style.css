@@ -1,0 +1,65 @@
+.cube{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+}
+
+.square{
+    height: 50px;
+    width: 50px;
+}
+
+.tl{
+    background-image: linear-gradient(
+        135deg, red 25%,blue 25%, blue 50%, red 50%, red 75%, transparent 75%
+    );
+}
+
+.tr{
+    background-image: linear-gradient(
+        
+    -135deg, pink 25%,green 25%, green 50%, rgb(0, 0, 130) 50%, rgb(0, 0, 130) 75%, transparent 75%
+    );
+}
+.br{
+    background-image: linear-gradient(
+        
+    -405deg, red 25%,blue 25%, blue 50%, red 50%, red 75%, transparent 75%
+    ); 
+}
+
+.bl{
+    background-image: linear-gradient(
+        
+    405deg, rgb(126, 0, 0) 25%,green 25%, green 50%, rgb(0, 0, 130) 50%, rgb(0, 0, 130) 75%, transparent 75%
+    );
+}
+
+.RF{
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    background-image: linear-gradient(white 0%, white 33%, blue 33%, blue 66%, red 66%,red 100%);
+}
+
+.b{
+    height: 100px;
+    width: 200px;
+}
+
+.bgybp{
+    background-image: linear-gradient(black, green,yellow);
+}
+
+.bgyp{
+    background-image: linear-gradient(black 33%, green 33%,green 66%,yellow 66%, yellow);
+}
+
+.bgybp2{
+    background-image: linear-gradient(black, green,yellow,black, green,yellow,black, green,yellow);
+}
+
+.bgyp2{
+    background-image: linear-gradient(black, green,yellow 50%,black 50%, green,yellow);
+}

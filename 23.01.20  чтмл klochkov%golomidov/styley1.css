@@ -1,0 +1,7 @@
+.portait{
+    margin: 20px auto;
+    width: 300px;
+    height: 400px;
+    background: url('img/keks1.jpg') no-repeat red;
+    background-size: 100%;
+}

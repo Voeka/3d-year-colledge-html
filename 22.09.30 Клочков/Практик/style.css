@@ -1,0 +1,94 @@
+div{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.d1{/*Круг */
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border-radius: 50%;
+}
+
+.d2{/*Овал */
+    width: 200px;
+    height: 100px;
+    background: rgb(0, 255, 136);
+    border-radius: 100px/50px;
+}
+
+.d3 {/*Треугольник вверх */
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid olive;
+    
+}
+
+.d4{/*Треугольник вниз */
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid gray;
+}
+
+.d5{/*Треугольник влево */
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid grey;
+    border-bottom: 50px solid transparent;
+}
+
+.d6{/*Треугольник вправо */
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid brown;
+    border-bottom: 50px solid transparent;
+}
+
+.d7{/*Верхний левый угол */
+    width: 0;
+    height: 0;
+    border-top: 100px solid lightgreen;
+    border-right: 100px solid transparent;
+}
+
+.d8{/*Верхний правый угол */
+    width: 0;
+    height: 0;
+    border-top: 100px solid lightgreen;
+    border-left: 100px solid transparent;
+}
+
+.d9{/*Нижний левый угол */
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid rgb(212, 255, 212);
+    border-right: 100px solid transparent;
+}
+.d10{/*Нижний правый угол */
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid rgb(229, 255, 229);
+    border-left: 100px solid transparent;
+}
+
+.d11{/*Трапеция */
+    height: 0;
+    width: 100px;
+    border-bottom: 100px solid yellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.d12{/*Параллелограмм */
+    margin-left: 20px;
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: gray;
+}

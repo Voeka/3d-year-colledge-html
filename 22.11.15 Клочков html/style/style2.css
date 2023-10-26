@@ -1,0 +1,17 @@
+html,
+body{
+    margin:0; /*без отсупов*/
+    padding: 0; /*без подстпупов*/
+}
+
+.CenterMe{
+    background-color: indigo; /*Задний фон -фиолетовый*/
+    color: #ebebeb; /*Цвет текста ебебеб*/
+    font-family: 'Oswald', sans-serif; /*Шрифт*/
+    font-size: 2rem; /*Размер текста*/
+    text-transform: uppercase; /*Весь текст заглавный*/
+    height: 200px; /*Высота 200px*/
+    display: flex; /*Отображение - резина*/
+    align-items: center; /*Отображение центр*/
+    justify-content: center; /*Отображение центр*/
+}

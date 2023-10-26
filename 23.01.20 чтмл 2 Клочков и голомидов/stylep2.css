@@ -1,0 +1,58 @@
+body{
+    font-size: 140%;
+}
+
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 0.75em 0;
+    padding: 0.5em 1em;
+    width: 47%;
+    box-sizing: border-box;
+    list-style: none;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    flex-grow: 0;
+    border-width: 5px;
+    border-color: gray;
+    border: 5px;
+}
+
+#a101{
+    border-style: none;
+    color: red;
+}
+#a102{
+    border-style: hidden;
+}
+
+#a103{
+    border-style: solid;
+}
+#a104{
+    border-style: dotted;
+}
+#a105{
+    border-style: dashed;
+}
+#a106{
+    border-style: double;
+}
+#a107{
+    border-style: groove;
+}
+#a108{
+    border-style: ridge;
+}
+#a109{
+    border-style: inset;
+}
+#a110{
+    border-style: outset;
+}

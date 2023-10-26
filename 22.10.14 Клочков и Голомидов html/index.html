@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body bgcolor="Skyblue">
+    <h1>Переключатели</h1>
+    <p>Сколько вам лет?</p>
+    <ol>
+        <li><input type="radio" name="age" value="menee24" checked="checked">младше 24</li>
+        <li><input type="radio" name="age" value="25-34">От 25 до 34</li>
+        <li><input type="radio" name="age" value="35-44">От 35 до 44</li>
+        <li><input type="radio" name="age" value="bolee45">Старше 45</li>
+    </ol>
+    <hr><br>
+    <h1>Флажки</h1>
+    <p>Какую музыку слушаете?</p>
+    <ol>
+        <li><input type="checkbox" name="features[]" value="laces">Класика</li>
+        <li><input type="checkbox" name="features[]" value="rok">Рок</li>
+        <li><input type="checkbox" name="features[]" value="it">Техно</li>
+    </ol>
+    <hr><br>
+    <h1>Списки</h1>
+    <p>Какая любимая группа восьмидесятых?</p>
+    <select name="EightiesFave">
+        <option>The Cure</option>
+        <option>Cocteau Twins</option>
+        <option>Tears for Fears</option>
+        <option>Thompson Twins</option>
+        <option value="EBTG">Everything But the Girl</option>
+        <option>Depeche Mode</option>
+        <option>the Smiths</option>
+        <option>New Order</option>
+    </select>
+    <hr><br>
+    <h1>Datalist</h1>
+    <p>Образованное поле: <input type="text" list="edulevel" name="education"></p>
+    <datalist id="edulevel">
+        <option value="Среднее"></option>
+        <option value="Среднее специальное"></option>
+        <option value="Высшее"></option>
+    </datalist>
+    <hr><br>
+    <h1>Выбор файла</h1>
+    <form action="/client.php" method="post" enctype="multipart/form-data">
+        <label>Загрузите фотографию для аварата<em> (необязательно)</em><br>
+        <input type="text"name="photo" size="28"></label>
+    </form>
+    <hr><br>
+    <h1>Числа и ползунок</h1>
+    <label >Колличество гостей<input type="number" name="quests" min='1' max="6"></label><br>
+    <label>Удовлетворенность(0-10)<input type="range" name="satis" min="0" max="10" step="1"></label>
+    <br><hr>
+    <h1>Color</h1>
+    <label >Ваш любимый цвет
+        <input type="color" name="favorite">
+    </label>
+    <br><hr>
+    <h1>Zadanie 1</h1>
+    <fieldset><legend>Контактная информация</legend>
+    <label>Имя:    <input type="text" name="name"></label><br><br>
+    <label>Телефон: <input type="tel" name="numr"></label><br><br>
+    <label>Email: <input type="email" name="mail"></label><br><br>
+    <label>Дата посещения: <input type="date" name="dat"></label><br><br>
+    <input type="submit" name="press" value="Жмяк для отправить"><br><br>
+    <input type="reset" value="Очистить">
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.portait{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border: 20px solid blue;
+    background: url('img/keks1.jpg') no-repeat white;
+    background-origin: padding-box ;
+    background-size: 100% 100%; 
+}
+
+.portrait-small{
+    background-origin: content-box;
+    background-clip: border-box;
+}
+
+.portrait-full{
+    background-origin: border-box;
+    background-clip: content-box;
+}

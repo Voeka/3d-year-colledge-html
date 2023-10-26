@@ -1,0 +1,12 @@
+
+div{
+    float: left;
+    margin: 20px;
+    width: 800px;
+    height: 300px;
+    border: 1px dotted gray;
+    background-image: url(../img/yinyang.png);
+    background-repeat: space;
+
+}
+

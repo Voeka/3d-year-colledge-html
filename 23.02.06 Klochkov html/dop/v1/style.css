@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 20px;
+    animation: colors 5s infinite linear alternate-reverse;
+}
+
+@keyframes colors{
+    0%{ background-color: red; border: 1px solid black;}
+    25%{
+        background-color: green; border: 5px dotted gray;
+    }
+    50%{
+        background-color: blue; border: 10px dashed pink;
+    }
+    75%{
+        background-color: pink; border: 15px solid brown;
+    }
+    100%{
+        background-color: aqua; border: 30px dotted red;
+    }
+}

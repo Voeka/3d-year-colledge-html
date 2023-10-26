@@ -1,0 +1,17 @@
+.portrait{
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 40px;
+    width: 900px;
+    height: 550px;
+    border: 40px solid rgba(0,0,0,0.4);
+    border-image-source: url('img/ramka3.jpg');
+    border-image-slice: 60;
+    border-image-repeat: round;
+    background: url('img/pngwing.com.png') no-repeat -500px -15px ,
+    url('img/keks1.jpg') no-repeat center;
+
+    background-clip: padding-box;
+    background-origin: border-box;
+    background-size: 150,cover;
+}

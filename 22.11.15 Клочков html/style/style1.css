@@ -1,0 +1,28 @@
+body{
+    background-color: grey; /* Цвет заднево фона - серый*/
+}
+
+@media screen and (min-width: 320px){
+    body{
+        background-color: green;  /* Цвет заднево фона - Зеленый при 320px*/
+    }
+}
+
+@media screen and (min-width: 550px) {
+    body{
+        background-color: yellow; /* Цвет заднево фона - Жёлтый 550px*/
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: orange; /* Цвет заднево фона - Оранжевый768px*/
+    }
+    
+}
+
+@media screen and (min-width: 960px) {
+    body{
+        background-color: red; /* Цвет заднево фона - Красный 960px*/
+    }    
+}

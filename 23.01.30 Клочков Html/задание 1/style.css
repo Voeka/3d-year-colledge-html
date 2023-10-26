@@ -1,0 +1,31 @@
+div{
+    transform-style: preserve-3d;
+    border: 1px solid gray;
+    width: 700px;
+    margin: 10px auto;
+}
+img{
+    margin: 10px;
+}
+
+#a{
+    transform: rotateX(45deg);
+}
+#b{
+    transform: rotateY(45deg);
+}
+#c{
+    transform: rotateZ(45deg);
+}
+#d{
+    transform: rotateX(-45deg);
+}
+#e{
+    transform: rotateY(-45deg);
+}
+#f{
+    transform: rotateZ(-45deg);
+}
+
+
+

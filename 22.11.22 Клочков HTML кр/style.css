@@ -1,0 +1,110 @@
+/*Вариант 7*/
+
+.container{
+    width: 75%;
+    height: auto;
+    border-left: 3px solid rgba(128, 128, 128, 0.405);
+    border-right: 3px solid rgba(128, 128, 128, 0.405);
+    margin: auto;
+}
+.none{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.names{
+    height: 300px;
+}
+
+.names h1{
+    margin-top: 10%;
+    display: block;
+    float: left;
+}
+
+.names img{
+    border: 6px solid sandybrown;
+    border-radius: 5px;
+    max-height: 300px;
+    max-width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: right;
+}
+
+.ingeds{
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    float: right;
+    border: 3px solid sandybrown;
+    border-radius: 5px;
+    background-color: rgb(255, 201, 154);
+    margin-top: 30px;
+
+}
+
+.ingeds li{
+    list-style-type: disc;
+}
+
+.content .Hight{
+    font-size: 25px;
+    float: left;
+
+}
+
+.content .resept{
+    font-size: 20px;
+}
+
+/*Медиа*/
+
+@media screen and (Max-width: 720px){
+.container{
+    width: 90%;
+}
+
+.none{
+    display: flex;
+    flex-direction: column;
+}
+
+.names{
+    margin: auto;
+}
+
+.names h1{
+    margin-top: 10%;
+    float: none;
+    margin: auto;
+    
+}
+
+.names img{
+    margin: auto;
+    max-width:350px ;
+    float: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .Hight{
+    float: none;
+    order: 2;
+}
+.ingeds{
+    float: none;
+    margin: 0;
+    order: 1;
+}
+
+.resept{
+    order: 3;
+}
+
+
+}

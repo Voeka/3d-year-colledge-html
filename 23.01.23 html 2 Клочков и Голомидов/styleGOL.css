@@ -1,0 +1,48 @@
+.aaa{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aaa img{
+    height: 400px;
+    width: 400px;
+    border: 60px solid;
+    border-image-source: url('5.png');
+    border-image-slice: 60;
+    border-image-repeat: round;
+
+}
+
+
+.bbb .a{
+    height: 400px;
+    width: 400px;
+    border: 60px solid;
+    border-image-source: url('6.png');
+    border-image-slice: 100;
+    border-image-repeat: round;
+}
+
+.bbb .b{
+    height: 400px;
+    width: 400px;
+    border: 60px solid;
+    border-image-source: url('7.png');
+    border-image-slice: 100;
+    border-image-repeat: round;
+}
+
+.bbb .c{
+    height: 400px;
+    width: 400px;
+    border: 60px solid;
+    border-image-source: url('8.png');
+    border-image-slice: 100;
+    border-image-repeat: round;
+}
+
+.bbb{
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+}

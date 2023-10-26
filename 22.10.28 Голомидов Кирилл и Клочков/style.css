@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: Calibri;
+}
+.back_cl {
+    background-color: rgb(206, 177, 142);
+    width: 1440px;
+    margin: auto;
+}
+header {
+    padding-top: 25px;
+}
+.top_one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.top_one h1 {
+    color: red;
+}
+.top_one p {
+    font-size: 14pt;
+}
+.img_top_left {
+    position: absolute;
+    top: 20px;
+}
+.nav_top {
+    padding: 5px;
+    background-color: rgb(87, 51, 153);
+    
+}
+.nav_top a {
+    font-size: 14pt;
+    color: white;
+    text-decoration-style:dashed;
+    padding-right: 320px;
+}
+.nav_top a:hover {
+    color: red;
+}
+.nav_top ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+main {
+    padding: 15px;
+}
+.main_block {
+    border: 4px double rgb(124, 107, 85);
+    padding: 10px;
+    background-color: white;
+}
+.main_top_text {
+    display: flex;
+    justify-content: center;
+}
+.main_top_text h1 {
+    color: blueviolet;
+}
+.nav_main_text {
+    border-left: 3px solid rgb(206, 177, 142);
+    border-top: 2px solid rgb(206, 177, 142);
+    padding: 5px 0 0 10px;
+}
+.nav_main_text h2 {
+    color: rgb(206, 177, 142);
+}
+.main_content {
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-size: 14pt;
+}
+.main_content p {
+    margin-bottom: 10px;
+}
+main i {
+    color: red;
+}
+.main_block a {
+    text-decoration-style:dashed;
+}
+.main_block a:hover {
+    color: red;
+}
+.otziv_block {
+    background-color: rgb(255, 201, 130);
+    margin: 30px;
+    border-radius: 15px;
+    height: 170px;
+}
+.otziv_block img{
+    position: absolute;
+    border-radius: 15px;
+}
+.otziv_text {
+    padding-top: 30px;
+    padding-left: 110px;
+}
+.otziv_text p {
+    margin-top: 15px; 
+    font-size: 14pt;
+}
+.otziv_text h2 {
+    color:rgb(214, 135, 31);
+}
+
+
+.f3 legend{
+	font-size: 1.3em;
+	color: rgb(125, 50, 27);
+}
+
+.f3 fieldset{
+	border: 1px solid rgb(125, 50, 27);
+
+	border-radius: 8px;
+}
+
+.f3 .labels, .inputs {
+	display: inline-block;
+}
+
+.f3 .labels{
+	margin-right: 100px;
+	color: rgb(125, 50, 27);
+}
+
+.f3 .inputs input{
+	display: block;
+	width: 400px;
+	padding: 3px;
+}
+
+.f3 label{
+	margin-bottom: 16px;
+	display: block;
+}
+/*Привет Даня!*/
+.f3 h3, .f3 labe1{
+	color: rgb(125, 50, 27);
+}
+
+.f3 .button{
+    margin-right: 40px;
+}
+
+input[type="submite"]{
+	padding: 10px;
+	background: linear-gradient(#fff, rgb(101, 162, 231));
+	border-radius: 8px 8px 0 0;
+}
+
+footer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

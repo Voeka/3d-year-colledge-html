@@ -1,0 +1,9 @@
+body{
+    width: 45em;
+}
+h1{
+    border-left: 3px solid grey;
+    border-right: green 0.25em dotted;
+    border-top: thick goldenrod inset;
+    border-bottom: double rgb(13%, 14%, 53%) 10px;
+}

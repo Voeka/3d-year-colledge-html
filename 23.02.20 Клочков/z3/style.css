@@ -1,0 +1,30 @@
+
+div{
+    background-image: url(images.jfif);
+    background-position: center ;
+    border: 5px dotted black;
+    margin: 5px;
+}
+
+.i1{
+    background-size: auto;
+    background-clip: content-box;
+    width: 300px;
+    background-repeat: repeat-x;
+}
+
+.i2{
+    background-size: auto;
+    background-clip: content-box;
+    width: 300px;
+    background-repeat: repeat-y;
+    
+}
+
+.i3{
+    background-size: auto;
+    background-clip: content-box;
+    width: 300px;
+    background-repeat: space;
+    
+}

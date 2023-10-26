@@ -1,0 +1,40 @@
+.f3 legend{
+	font-size: 1.3em;
+	color: rgb(49, 139, 203);
+}
+
+.f3 fieldset{
+	border: 1px solid rgb(49, 139, 203);
+	background: rgb(192, 219, 210);
+	border-radius: 8px;
+}
+
+.f3 .labels, .inputs {
+	display: inline-block;
+}
+
+.f3 .labels{
+	margin-right: 100px;
+	color: rgb(125, 50, 27);
+}
+
+.f3 .inputs input{
+	display: block;
+	width: 400px;
+	padding: 3px;
+}
+
+.f3 label{
+	margin-bottom: 16px;
+	display: block;
+}
+
+.f3 h3, .f3 labe1{
+	color: rgb(125, 50, 27);
+}
+
+input[type="submite"]{
+	padding: 10px;
+	background: linear-gradient(#fff, rgb(101, 162, 231));
+	border-radius: 8px 8px 0 0;
+}

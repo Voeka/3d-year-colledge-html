@@ -1,0 +1,27 @@
+.main{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+}
+.inline div{
+    display: inline-block;
+    display: -moz-inline-stack;
+    vertical-align: top;
+    font-size: 16px;
+}
+div.inline{font-size: 0;}
+.left{
+    background: red;
+    width: 20%;
+    height: 300px;
+}
+.content{
+    background: green;
+    width: 60%;
+    height: 300px;
+}
+.right{
+    background: blue;
+    width: 20%;
+    height: 300px;
+}

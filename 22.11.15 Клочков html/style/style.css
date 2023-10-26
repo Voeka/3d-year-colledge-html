@@ -1,0 +1,111 @@
+html{
+    font-size: 15px;
+}
+
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: black;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+
+    padding: 1rem;
+    margin: 20px auto;
+
+    background-color: #eee;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.into{
+    height: 300px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.content{
+    background-color: wheat;
+    display: flex; /*Отображение - резина*/
+    align-items: center; /*Отображение центр*/
+    justify-content: center; /*Отображение центр*/
+}
+
+.sideone{
+    background-color: orange;
+    display: flex; /*Отображение - резина*/
+    align-items: center; /*Отображение центр*/
+    justify-content: center; /*Отображение центр*/
+}
+
+.sidetwo{
+    background-color: orangered;
+    display: flex; /*Отображение - резина*/
+    align-items: center; /*Отображение центр*/
+    justify-content: center; /*Отображение центр*/
+}
+
+.header{
+    background-color: aqua;
+    height: 300px;
+    display: flex; /*Отображение - резина*/
+    align-items: center; /*Отображение центр*/
+    justify-content: center; /*Отображение центр*/
+}
+
+.footer{
+    background-color: red;
+    color: white;
+    height: 300px;
+    display: flex; /*Отображение - резина*/
+    align-items:flex-end;
+    justify-content: right; /*Отображение центр*/
+}
+
+/*media*/
+
+@media  (max-width:800px) {
+    .into{
+        flex-basis: 50%;
+    }
+    
+}
+
+@media (max-width:600px){
+    .into{
+        flex-basis: 100% ;
+    }
+
+    .content{
+        order: 1;
+    }
+
+    .sideone{
+        order: 2;
+    }
+
+    .sidetwo{
+        order: 3;
+    }
+
+
+}
+
+@media (max-height:350px) and (orientation:landscape) {
+    .into{
+        height: 200px;
+    }
+    
+}

@@ -1,0 +1,385 @@
+@font-face {
+    font-family: "ptsans";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("ptsans"),
+         /* Если не получилось, загрузит woff2 */
+         url("fonts/web/ptsansnarrow.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("fonts/web/ptsansnarrow.woff") format("woff");
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "ptsans";
+    
+}
+
+header{
+    width: 36%;
+    padding-left: 32%;
+    padding-right: 32%;
+    background-color: black;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main{
+    background-image: url("img/ФОН.png");
+    height: 100%;
+    width: 36%;
+    padding-left: 32%;
+    padding-right: 32%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.heade{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.a1{
+    width: 60%;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    background-color: silver;
+    color: blueviolet;
+}
+
+p{
+    color: white;
+}
+
+.URPLUS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+}
+
+.bigtext{
+    font-size: 30px;
+    font: bold;
+    margin-bottom: 15px;
+}
+
+.lowtext{
+    font-size: 12px;
+}
+
+.plus *{
+    margin: auto;
+    text-align: justify;
+}
+
+.plus img{
+    width: 35px;
+    height: 35px;
+}
+
+.con{
+    color: black;
+    line-height: 25px;
+}
+
+.bigcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-top: 70px;
+}
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
+}
+
+.content2 img:hover{
+    transform: scale(1.2);
+    
+}
+
+.spec{
+    border-right:1px solid black ;
+}
+
+.dop{
+    width: 50%;
+}
+.smallimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.smallimage img{
+    width: 33%;
+}
+
+.price{
+    width: 50%;
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.leftprice{
+    background-color: silver;
+    justify-content: center;
+    padding: 10px 25px;
+    
+}
+
+h4 img{
+    filter: invert();
+    width: 1.5%;
+}
+
+li{
+    margin-left: 5%;
+    list-style-image: url(img/РОМБ2.png);
+}
+
+
+
+.rigthprice{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+}
+
+.rigthprice:hover{
+    background-color: rgb(135, 135, 135);
+    color: black;
+}
+
+.contentbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.button3{
+    margin-top: 29px;
+    width: 140px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.contentbutton button{
+    width: 140px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: silver;
+}
+
+.baaa{
+    margin-right: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 45px;
+    font-size: 16px;
+    width: 120px;
+}
+
+input[type='submit']{
+    width: 100%;
+    margin-top: 20px;
+}
+
+input[type='submit']:hover{
+    background-color: silver;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(61, 61, 61);
+    width: 36%;
+    padding-left: 32%;
+    padding-right: 32%;
+    justify-content: space-around;
+    height: 180px;
+    padding-top: 5%;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+footer img:hover{
+    filter:invert(1);
+}
+
+
+
+
+
+
+
+
+/* Price list */
+
+.OnlyMEN{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.OnlyMEN hr{
+    border: 1px solid black;
+    rotate: 90deg;
+    
+}
+
+.OnlyMEN div{
+    font-size: 50px;
+    text-align: center;
+}
+
+.dopPrice{
+    width: 150%;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    width: 350px;
+    border: 2px solid black;
+    padding: 5px;
+    
+}
+
+.butsmaller{
+    margin-top: 0;
+}
+
+
+
+/* selllls */
+
+.selllls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filterss{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 55%;
+}
+
+.filterss input{
+    width: 15%;
+}
+
+.catalogess{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item{
+    width: 25%;
+    height: min-content;
+    box-shadow: 2px 5px 10px 1px black;
+    margin: 5px;
+    padding: 5px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item .price{
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+.item .price .leftprice,.item .price .rigthprice{
+    width: fit-content;
+    margin: 0;
+    padding: 13px;
+}
+
+.item img{
+    width: 100%;
+}
+
+.pagess{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -15%;
+}
+
+.pagess div{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+}
+
+.pagess div:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='style.css'>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Zadanie 2</h1>
+    <fieldset><legend>Контактная информация</legend>
+    <label>Имя:    <input type="text" name="name"></label><br><br>
+    <label>Email: <input type="email" name="email"></label><br><br>
+    <label>Телефон: <input type="tel" name="numr"></label><br><br>
+    <label>Я хочу такие сандали, потому что</label><br>
+    <label><textarea name="why" cols="40" rows="4"></textarea></label>
+    </fieldset>
+    <br>
+    <fieldset><legend>Характеристики</legend>
+        <fieldset><legend>Цвет(выберите один из пунктов)</legend>
+        <ol>
+            <li><input type="radio" name="1" id="">Красный</li>
+            <li><input type="radio" name="1" id="">Синий</li>
+            <li><input type="radio" name="1" id="">Чёрный</li>
+            <li><input type="radio" name="1" id="">Серебреный</li>
+        </ol>
+    </fieldset>
+    <fieldset><legend>Дополнительно(выберите один или несколько пунктов)</legend>
+        <ol>
+            <li><input type="checkbox" name="2" id="">Глянцевые ободки</li>
+            <li><input type="checkbox" name="2" id="">Металлическая бляшка</li>
+            <li><input type="checkbox" name="2" id="">Светяшаяся подошва</li>
+            <li><input type="checkbox" name="2" id="">Mp3-проигрыватель</li>
+        </ol>
+    </fieldset>
+    <fieldset><legend>Размер</legend>
+        <label>Стандартные российские размеры: <select>
+            <option>33</option>
+            <option>34</option>
+            <option>35</option>
+            <option>36</option>
+            <option>37</option>
+            <option>38</option>
+            <option>39</option>
+            <option>40</option>
+            <option>41</option>
+            <option>42</option>
+            <option>43</option>
+            <option>44</option>
+        </select>
+        </label>
+    </fieldset>
+    </fieldset>
+    <input type="button" value="Заказать"> <input type="reset" value="Очистить">
+
+
+    <h1>Zadanie 3</h1>
+	<form class="f3">
+    <fieldset><legend>Контактная информация</legend>
+	<div class="labels">
+    <label>Имя: </label><br>
+    <label>Телефон: </label><br>
+    <label>Email: </label><br>
+    <label>Дата посещения: </label>
+	</div>
+	
+	<div class="inputs">
+	<input type="text"><br>
+	<input type="tel"><br>
+	<input type="email"><br><br>
+	<input type="date">
+	</div>
+    </fieldset>
+
+    <fieldset><legend>Персональная инофрмация</legend>
+        <div class="labels">
+		<label>Возраст:    <input type="number" min="1" max="150" step="1"></label><br><br>
+        <label>Любимая кухня: 
+		</div>
+		<select>
+		<div class="inputs">
+            <option>Русская</option>
+            <option>Немацкая</option>
+            <option>Французкая</option>
+            <option>Японская</option>
+                </select></label><br><br></div>
+		<div class="labels">
+        <label>Какие блюда Вы хотели бы увидеть в меню?<textarea></textarea></label><br>
+		</div>
+        </fieldset>
+
+        <fieldset><legend>Оценка нашего заведения</legend>
+            <p>Почему Вы выбрали наше заведение?</p>
+            <ul>
+                <li><input type="radio" name="3" checked="checked">Недалеко от дома/работы</li>
+                <li><input type="radio" name="3" >Увидел рекламу</li>
+                <li><input type="radio" name="3" >Посоветовали</li>
+                <li><input type="radio" name="3" >Оптимальное соотношение цены и качества</li>
+            </ul>
+            
+            <ul>
+                <li><input type="radio" name="4" checked="checked">Да</li>
+                <li><input type="radio" name="4">Нет</li>
+            </ul>
+            </fieldset>
+            <br>
+            <input type="submit" name="" value="Отправить">
+	</form>
+</body>
+</html>

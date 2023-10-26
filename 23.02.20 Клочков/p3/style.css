@@ -1,0 +1,27 @@
+
+div{
+    float: left;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px dotted gray;
+    background-position: center;
+    background-image: url(../img/yinyang-sm.png);
+    background-origin: padding-box;
+}
+
+.c1{
+    background-repeat: round;
+}
+
+.c2{
+    background-repeat: space;
+}
+
+.c3{
+    background-clip: content-box ;
+}
+
+.c4{
+    background-clip: padding-box;
+}

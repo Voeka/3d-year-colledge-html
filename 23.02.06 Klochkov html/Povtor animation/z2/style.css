@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid black;
+    color: white;
+}
+
+.ball{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bounce{
+    from{transform: translateY(500px);}
+    to{
+        transform: translateY(0);
+    }
+    }

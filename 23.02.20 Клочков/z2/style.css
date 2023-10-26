@@ -1,0 +1,63 @@
+
+div{
+    background-image: url(images.jfif);
+    background-position: center ;
+    border: 5px dotted black;
+    margin: 5px;
+}
+
+.i1{
+    background-size: auto;
+    background-clip: content-box;
+    width: 300px;
+    height: 200px;
+}
+
+.i2{
+    background-size: auto;
+    background-clip: content-box;
+    width: 300px;
+    height: 300px;
+}
+
+.i3{
+    background-size: auto;
+    background-clip: content-box;
+    width: 200px;
+    height: 200px;
+}
+
+.i4{
+    background-size: auto;
+    background-clip: content-box;
+    width: 150px;
+    height: 150px;
+}
+
+.i5{
+    background-size: auto;
+    background-clip: content-box;
+    width: 600px;
+    height: 300px;
+}
+
+.i6{
+    background-size: auto;
+    background-clip: content-box;
+    width: 600px;
+    height: 250px;
+}
+
+.i7{
+    background-size: auto;
+    background-clip: content-box;
+    width: 400px;
+    height: 300px;
+}
+
+.i8{
+    background-size: auto;
+    background-clip: content-box;
+    width: 250px;
+    height: 250px;
+}

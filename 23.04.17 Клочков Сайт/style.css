@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: linen;
+}
+
+
+/* Хедер */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 5px;
+}
+
+header img{
+    width: 7rem;
+    border-radius: 50%;
+}
+
+nav{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav a{
+    font-size: 26px;
+    margin: 10px;
+}
+
+.contacts{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 18px;
+}
+
+.socia{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Главное тело */
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+p{
+    font-size: 18px;
+}
+
+.tittle{
+    font-size: 26px;
+}
+
+.tittls{
+    font-size: 36px;
+}
+
+.foma{
+    border-top: 1px solid black;
+    border-bottom:1px solid rgb(0, 0, 0) ;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.foma img{
+    width: 5rem;
+}
+
+.whyWE{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom:1px solid black ;
+    padding-bottom: 20px;
+}
+
+.primers{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.primers div{
+    width: 20%;
+}
+
+.bigslayder{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    
+}
+
+.slayd{ width: 100%;
+
+}
+.hidden{
+    display: none;
+}
+
+.slayderOtziv{
+
+    border-bottom:1px solid black ;
+    padding: 10px;
+}
+
+.imge{
+    width: 100%;
+}
+
+.imge img{
+    width: 25%;
+}
+
+/* Footer */
+
+footer{
+    border-top:3px solid white ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: linen;
+}
+
+
+footer div{
+    width: 33%;
+    text-align: center;
+}
+
+.CallMe{
+    width: 20%;
+    font-size: 32px;
+    position: relative;
+    left: 40%;
+    right: auto;
+}

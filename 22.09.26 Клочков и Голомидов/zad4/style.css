@@ -1,0 +1,30 @@
+div{
+    height: 100px;
+    border: 3px solid rgb(25, 0, 255);
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.d1{
+background-color: cadetblue;
+}
+.d2{
+    background-color: rgb(38, 218, 38);
+    }
+.d3{
+    background-color: rgb(234, 0, 255);
+    }
+.d4{
+    background-color: rgb(224, 204, 19);
+    }
+.d5{
+    background-color: rgb(224, 36, 36);
+    }
+.d6{
+    background-color: rgba(167, 230, 198, 0.555);
+    }
+    .container{
+        border: none;
+        width: 900px;
+        margin: auto;
+    }

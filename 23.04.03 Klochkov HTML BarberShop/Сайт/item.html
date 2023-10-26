@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BORONSKI</title>
+</head>
+<body>
+    <img src="img/map.png" alt="map" id="Map" onclick="hideMap()">
+    <div class="form-popup" id="myForm">
+        <form action="#" class="form-container">
+          <h1>Личный кабинет</h1>
+          <label for="name"><b>Введите пожалуйста почту и пароль</b></label>
+          <input type="email" placeholder="Ваша почта" name="name" required>
+          <input type="password" placeholder="Ваш пароль" name="email" required>
+          <br>
+          <div class="spa-ce"><b><input type="checkbox" name="" id="">Запомнить меня</b> <a href="#">Забыл пароль</a></div>
+          <button type="submit" class="btn">Войти</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+        </form>
+      </div>
+      <script>
+        function openForm(){
+            document.getElementById("myForm").style.display = "block"; 
+
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+
+        
+}
+
+
+function showMap(){
+    document.getElementById('Map').style.display='block';
+}
+function hideMap(){
+    document.getElementById('Map').style.display='none';
+}
+
+ </script>
+    <header>
+        <div class="heade a1">
+            <a href="index.html">ИНФОРМАЦИЯ</a>
+            <a href="#">НОВОСТИ</a>
+            <a href="price.html">ПРАЙС-ЛИСТ</a>
+            <a href="shop.html">МАГАЗИН</a>
+            <a href="#">КОНТАКТЫ</a>
+        </div>
+        <div class="heade a2">
+            <div>
+                <img src="img/ВХОД.png" alt="login"><a href="#" onclick="openForm()">ВХОД</a>
+            </div>
+        </div>
+    </header>
+<main style="background-image: none; background-color: rgb(215, 215, 215);">
+    <h1>НАБОР ДЛЯ ПУТЕШЕСТАИЙ "BAXTER OF CALIFORNIA"</h1>
+    <h4>Главная <img src="img/РОМБ.png" alt=""> Магазин <img src="img/РОМБ.png" alt=""> Средсва для ухода <img src="img/РОМБ.png" alt=""> Набор для ПУТЕШЕСТАИЙ "BAXTER OF CALIFORNIA"</h4>
+    
+     <div class="bigcontent">
+        <div class="content2 spec dop">
+            <img src="img/BigKit.png" alt="">
+            <div class="smallimage">
+                <img src="img/littlekit1.png" alt="">
+                <img src="img/littlekit2.png" alt="">
+                <img src="img/littlekit3.png" alt="">
+            </div>
+        </div>
+        <div class="content2">
+            <div class="info"><p class="lowtext con">Есть в наличии</p><p class="lowtext con">Артикул: DEXTER-AE</p></div>
+            <p class="lowtext con">TRAVEL KIT - НЕОБХОДИМЫЙ АКСЕССУАР ВО ВРЕМЯ ЛЮБОГО ПУТЕШЕСТВИЯ. В АККУРАТНОЙ КОЖАНОЙ СУМКЕ НАХОДИТСЯ ВСЕ, ЧТО НУЖНО ДЛЯ БРИТЬЯ И УХОДА ЗА КОЖЕЙ ВО ВРЕМЯ РАБОЧЕЙ ПОЕЗДКИ ИЛИ ОТДЫХА: СРЕДСТВО ДЛЯ УМЫВАНИЯ, УВЛАЖНЯЮЩИЙ КРЕМ, КРЕМ ДЛЯ БРИТЬЯ, КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ. НАБОР ТАКЖЕ МОЖЕТ СТАТЬ ОТЛИЧНЫМ ПОДАРКОМ.</p>
+            <br>
+            <div class="price">
+                <div class="leftprice">2900Р</div>
+                <div class="rigthprice">Купить</div>
+            </div>
+            <br>
+            <p class="bigtext con">В НАБОР ВХОДЯТ:</p>
+            <ul>
+                <li>СРЕДСТВО ДЛЯ УМЫВАНИЯ (50 МЛ)</li>
+                <li>УВЛАЖНЯЮЩИЙ КРЕМ (50 МЛ)</li>
+                <li>КРЕМ ДЛЯ БРИТЬЯ (50 МЛ)</li>
+                <li>КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ (50 МЛ)</li>
+                <li>УДОБНАЯ КОЖАНАЯ КОСМЕТИЧКА
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+</main>
+<footer>
+    <div>
+        <p>БАРБЕРШОП БОРОДИНСКИЙ»</p>
+        <p>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 </p>
+        <p onclick="showMap()">КАК НАС НАЙТИ?</p>
+        <p>ТЕЛЕФОН: +7 (495) 666-02-66</p>
+      </div>
+      <div>
+        <p>ДАВАЙТЕ ДРУЖИТЬ!</p>
+        <div><img src="img/ВК.png" alt=""><img src="img/ИНСТА.png" alt=""><img src="img/ФЕЙС.png" alt=""></div>
+      </div>
+      <div>
+        <p>РАЗРАБОТАНО:</p>
+        <p>Клочков Данила 3ИС-16</p>
+      </div>
+</footer>
+</body>
+</html>

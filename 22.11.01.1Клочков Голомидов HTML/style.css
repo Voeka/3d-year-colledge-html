@@ -1,0 +1,43 @@
+body{
+    background: rgb(142, 255, 127);
+}
+
+h1{
+    padding-left: 45%;
+}
+
+
+
+a img{
+    height: 250px;
+    width: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    transition: transform 0.5s linear ;
+    margin: 0 auto;
+    
+}
+
+a:hover img,a:focus img{
+    transform:rotate(720deg) scale(2);
+}
+.history p{
+    text-align: center;
+    font-size: 18pt;
+}
+
+.history{
+    width: 90%;
+    height: auto;
+    border: 1px solid darkgreen;
+    border-radius: 25px;
+    margin:  0 auto;
+}
+.imag{
+    width: 90%;
+    height: auto;
+    border: 1px solid rgb(3, 77, 0);
+    border-radius: 25px;
+    margin: 0 auto;
+}

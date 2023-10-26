@@ -1,0 +1,38 @@
+
+li{
+    font-family: arial;
+    font-size: 20px;
+    color:blue;
+    
+    
+}
+
+li{
+    list-style-type: none;
+    border: 2px solid blue;
+    margin: 8px;
+    padding: 4px;
+    text-align: center;
+    max-width: 140px;
+}
+
+ul.menu1 li {
+    float: left;
+}
+li{
+    color: blue;
+    text-decoration: none;
+}
+li:hover{
+    background-color: rgb(44, 44, 44);
+    border: 2px solid black;
+    color: white;
+}
+li{
+    margin-bottom: 30px;
+}
+
+ul.menu2 li {
+    display: inline-block;
+}
+

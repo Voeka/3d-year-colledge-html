@@ -1,0 +1,71 @@
+.yel{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: rgb(110, 110, 255);
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.yell{
+    background-color: rgb(197, 197, 73);
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.or{
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+}
+.pink{
+    background-color: pink;
+    width: 20px;
+    height: 20px;
+}
+.brow{
+    background-color: brown;width: 20px;
+    height: 20px;
+}
+.wht{
+    background-color: wheat;width: 20px;
+    height: 20px;
+}
+.wood{
+    background-color: burlywood;width: 20px;
+    height: 20px;
+}
+.yellow{
+    background-color: yellow;width: 20px;
+    height: 20px;
+}
+.lm{
+    background-color: limegreen;width: 20px;
+    height: 20px;
+}
+.ln{
+    background-color: rgb(0, 255, 0);width: 20px;
+    height: 20px;
+}
+.orag{
+    background-color: orangered;width: 20px;
+    height: 20px;
+}
+
+.prl{
+    background-color: blueviolet;width: 20px;
+    height: 20px;
+}
+.wg{
+    background-color: rgb(173, 173, 173);width: 20px;
+    height: 20px;
+}
+.dg{
+    background-color: rgb(65, 65, 65);width: 20px;
+    height: 20px;
+}
+
+

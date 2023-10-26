@@ -1,0 +1,87 @@
+.out{
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 30px red;
+    
+    
+}
+
+.in{
+    height: 100px;
+    width: 100px;
+    box-shadow: inset 0 0 30px blue;
+    margin-left: 150px;
+    margin-top: -100px;
+}
+
+.image1{
+    background-image: url(1.jpeg);
+    width: 600px;
+    height: 300px;
+    background-size: contain;
+}
+
+.image2{
+    background-image: url(1.jpeg);
+    width: 600px;
+    height: 300px;
+    background-size: contain;
+    filter: blur(2px);
+}
+
+.zadania{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.zadania div{
+    width: 900px;
+    height: 600px;
+    background-image: url(zad.jpg);
+    background-size: contain;
+}
+
+.z1{
+    filter: blur(3px);
+}
+
+.z2{
+    filter: brightness(2);
+}
+
+.z3{
+    filter: contrast(50);
+}
+
+.z4{
+    filter: drop-shadow( inset 5px 5px 5px blue);
+}
+
+.z5{
+    filter: grayscale(.8);
+}
+
+.z6{
+    filter: hue-rotate(25deg);
+}
+
+.z7{
+    filter: invert(75%);
+}
+
+.z8{
+    filter: opacity(50%);
+}
+
+.z9{
+    filter: saturate(15%);
+}
+
+.z10{
+    filter: sepia(.75);
+}
+
+.zadania2 div{
+ box-shadow: 0 0 25px red;
+}

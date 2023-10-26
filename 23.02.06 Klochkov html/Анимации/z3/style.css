@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rainbow{
+    padding: 20px;
+    margin: 20px;
+    border: 3px black solid !important;
+    color: white;
+    font-size: 2rem;
+}
+
+.rainbow div{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.red{
+    opacity: 0;
+    animation-name: red, showtime;
+    animation-duration: 1s, 5s;
+    animation-delay: 1s,11s;
+    background-color: red;
+}
+.orange{
+    opacity: 0;
+    animation-name: orange, showtime;
+    animation-duration: 1s, 5s;
+    animation-delay: 3s,11s;
+    background-color: orange;
+}
+.yellow{
+    opacity: 0;
+    animation-name: yellow ,showtime;
+    animation-duration: 1s, 5s;
+    animation-delay: 5s,11s;
+    background-color: yellow;
+}
+.green{
+    opacity: 0;
+    animation-name: green,showtime;
+    animation-duration: 1s, 5s;
+    animation-delay: 7s,11s;
+    background-color: green;
+}
+.blue{
+    opacity: 0;
+    animation-name: blue,showtime;
+    animation-duration: 1s, 5s;
+    animation-delay: 9s,11s;
+    background-color: blue;
+}
+
+
+
+@keyframes red{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes orange{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes yellow{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes green{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes blue{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes showtime{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+

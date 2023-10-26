@@ -1,0 +1,25 @@
+table.ex tr.centop {
+    text-align: center;
+    vertical-align: top;
+    height: 100px;
+}
+table.ex td.rmid {
+    text-align: right;
+    vertical-align: middle;
+    width: 200px;
+}
+
+table.qq td {
+    background: green;
+}
+table.qq tr.spec td{
+    background: blue;
+    color: white;
+}
+
+table.qq tr.spec td.r{
+    background: red;
+}
+table.qq td.pic{
+    background: url("image/web.jpg");
+}

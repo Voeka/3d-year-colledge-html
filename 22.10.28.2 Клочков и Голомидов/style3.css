@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+}
+
+ul{
+    width: 1000px;
+    height: 100px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    -webkit-perspective: 600;
+    -moz-perspective: 600;
+    perspective: 600;
+}
+
+.fir li{
+    float: left;
+    margin-right: 10px;
+    -webkit-transform: rotatey(45deg);
+    -moz-transform: rotatey(45deg);
+    transform: rotatey(45deg);
+}
+
+
+.two li{
+    float: left;
+    margin-right: 10px;
+    -webkit-transform: rotateX(45deg);
+    -moz-transform: rotateX(45deg);
+    transform: rotateX(45deg);
+}
+
+li img{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,28 @@
+#_1{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    background-position: left ;
+    background-repeat:repeat-y;
+    padding: 40px;
+
+}
+
+#_2{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    background-position: center center;
+    padding: 40px;
+    
+}
+
+#_3{
+    width: 110px;
+    height: 110px;
+    background-image: url("1.png") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 70px;
+    
+}

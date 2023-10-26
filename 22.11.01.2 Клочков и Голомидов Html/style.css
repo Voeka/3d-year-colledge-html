@@ -1,0 +1,84 @@
+body{
+    background-color: gray ;
+}
+
+.main{
+    margin: 0 auto;
+    width: 900px;
+    height: 600px;
+    background-color: whitesmoke;
+    border: 0px;
+    border-radius: 25px;
+}
+.left{
+    float: left;
+}
+
+.main .left .up{
+    background-image: url(img/bg.png);
+    width: 430px;
+    height: 295px;
+}
+
+.main .left .bot{
+    width: 430px;
+    height: 305px;
+    background-color: #181818;
+    border-radius: 0px 0px 0px 25px ;
+}
+
+.main .left .bot img{
+    padding-left: 25px;
+    float: left;
+    
+}
+
+.date{
+    padding-left: 25px;
+    float: left;
+    color: #FF4D4D;
+}
+
+.last{
+    margin-top: 0;
+    padding-left: 35px;
+    float: left;
+    color: white;
+}
+
+.reg{
+    padding-left: 35px;
+    color: #999999;
+    margin: 0;
+}
+
+.te{
+    color: white;
+    font-size: 19pt;
+    padding-left: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.right{
+    width: 450px;
+    height: 300px;
+    float: left;
+}
+.right img{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.right form{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.right input{
+    background-color:#F1F1F1;
+    border: 1px solid;
+    border-radius: 25px;
+}

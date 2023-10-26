@@ -1,0 +1,18 @@
+p{
+    background-image: url(../img/yinyang-sm.png);
+    border: 1px dotted gray;
+    background-position: center;
+}
+div{
+    float: left;
+    margin: 20px;
+    width: 300px;
+}
+
+.c1 p{
+    background-repeat: repeat-x;
+}
+
+.c2 p{
+    background-repeat: repeat-y;
+}

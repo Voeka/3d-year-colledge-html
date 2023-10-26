@@ -1,0 +1,14 @@
+p{
+    margin: 16px 0 16px 0;
+    background-color: aqua;
+}
+p.upper{
+    margin-left: 50px;
+
+}
+p.middle{
+   padding: 20px;
+}
+p.bottom{
+    width: 50%;
+}

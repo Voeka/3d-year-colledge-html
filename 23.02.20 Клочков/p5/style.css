@@ -1,0 +1,13 @@
+
+main{
+    width: 500px;
+    height: 500px;
+    border: 1px solid silver;
+    overflow: hidden;
+    background-image: url(../img/yinyang-200.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+

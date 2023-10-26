@@ -1,0 +1,28 @@
+div{
+    transform-style: preserve-3d;
+    border: 1px solid gray;
+    width: 660px;
+    margin: 10px auto;
+}
+img{
+    margin: 10px;
+}
+#one{
+    perspective: none;
+}
+#one img{
+    transform: perspective(800px) rotateX(-50grad);
+}
+#two{
+    perspective: 800px;
+}
+#two img{
+    transform: rotateX(-50grad);
+}
+#three{
+    perspective: 300px;
+}
+#three img{
+    transform: rotateX(-50grad);
+}
+

@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+@keyframes anim{
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+    color: white;
+
+    backface-visibility: visible;
+    animation: anim 2s alternate infinite linear;
+}

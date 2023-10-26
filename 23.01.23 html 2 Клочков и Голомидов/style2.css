@@ -1,0 +1,114 @@
+
+form{
+    padding: 3em;
+    justify-content: center;
+}
+
+.a{
+    background-color: rgb(117, 117, 255);
+}
+.b{
+    background-color: greenyellow;
+}
+.c{
+    background-color: wheat;
+}
+.d{
+    background-color: rgb(204, 74, 74);
+}
+.e{
+    background-color: plum;
+}
+
+.a input::-webkit-input-placeholder{
+    color: #515151;
+    font-style: italic;
+    background: #fcfcfc;
+}
+
+.a input:-moz-placeholder{
+    color:#515151;
+    font-style: italic;
+    background-color: #fcfcfc;
+}
+
+.a input:-ms-input-placeholder{
+    color:#515151;
+    font-style: italic;
+    background-color: #fcfcfc;
+}
+
+.b input::-webkit-input-placeholder{
+    color: #c9c9c9;
+    font-style: italic;
+    background: #ffffff;
+}
+
+.b input:-moz-placeholder{
+    color:#c9c9c9;
+    font-style: italic;
+    background-color: #ffffff;
+}
+
+.b input:-ms-input-placeholder{
+    color:#c9c9c9;
+    font-style: italic;
+    background-color: #ffffff;
+}
+
+.c input::-webkit-input-placeholder{
+    color: rgb(63, 63, 255);
+    font-style: italic;
+    background: rgb(117, 117, 255);
+}
+
+.c input:-moz-placeholder{
+    color:rgb(63, 63, 255);
+    font-style: italic;
+    background-color: rgb(117, 117, 255);
+}
+
+.c input:-ms-input-placeholder{
+    color:rgb(63, 63, 255);
+    font-style: italic;
+    background-color: rgb(117, 117, 255);
+}
+
+.d input::-webkit-input-placeholder{
+    color: #b6c0a5;
+    font-style: italic;
+    background: #ffffff;
+}
+
+.d input:-moz-placeholder{
+    color:#b6c0a5;
+    font-style: italic;
+    background-color: #ffffff;
+}
+
+.d input:-ms-input-placeholder{
+    color:#b6c0a5;
+    font-style: italic;
+    background-color: #ffffff;
+}
+.e input::-webkit-input-placeholder{
+    color: rgb(249, 226, 249);
+    font-style: italic;
+    background: plum;
+}
+
+.e input:-moz-placeholder{
+    color:rgb(255, 211, 255);
+    font-style: italic;
+    background-color: plum;
+}
+
+.e input:-ms-input-placeholder{
+    color:rgb(254, 204, 254);
+    font-style: italic;
+    background-color: plum;
+}
+
+img{
+    height: 1.5em;
+}

@@ -1,0 +1,27 @@
+div{
+    margin-bottom: 15px;
+    padding: 10px 25px 10px 25px;
+    background-color: lime;
+}
+header{
+    padding-bottom: 2.5%;
+    background-color: greenyellow;
+    
+}
+.left{
+    width: 50%;
+    min-height: 100px;
+    background-color: sandybrown;
+    float: left;
+}
+.right{
+    width: 25%;
+    min-height: 100px;
+    background-color: lightgray;
+    float: right;
+}
+footer{
+    clear: both;
+    background-color: aquamarine;
+    min-height: 40px;
+}

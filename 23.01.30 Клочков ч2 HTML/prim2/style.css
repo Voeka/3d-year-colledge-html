@@ -1,0 +1,35 @@
+div{
+    width: 800px;
+    border: 1px solid black;
+    margin: 200px auto;
+}
+img{
+    width: 20%;
+}
+
+#one #a{
+    transform: scale(2);
+}
+
+#one #b{
+    transform: scaleX(0.5);
+}
+#one #c{
+    transform: scaleY(2);
+}
+#one #d{
+    transform: scaleY(0.5);
+}
+#two #a{
+    transform: scale(1.5);
+}
+
+#two #b{
+    transform: scale(1.5,1.5);
+}
+#two #c{
+    transform: scale(0.5,1.5);
+}
+#two #d{
+    transform: scale(1.5,0.5);
+}

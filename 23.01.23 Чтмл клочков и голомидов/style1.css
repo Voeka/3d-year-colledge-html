@@ -1,0 +1,17 @@
+body{
+    margin: 1.5em;
+}
+
+.box{
+    padding: 1em;
+    border-radius: 1em;
+    background-color: lightgray;
+}
+
+.box-smail{
+    font-size: 12px;
+}
+
+.box-large{
+    font-size: 18px;
+}

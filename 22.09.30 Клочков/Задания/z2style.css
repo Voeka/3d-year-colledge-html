@@ -1,0 +1,55 @@
+.full{
+    display: flex;
+}
+
+
+.left-col{
+    margin-left: 30px;
+    width: 48%;
+    border-right: 1px solid black;
+
+}
+
+.right-col{
+    margin-left: 30px;
+    width: auto;
+    float: left;
+
+}
+
+.d1 {/*Треугольник вверх */
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(255, 255, 0);
+}
+.d2{/*Треугольник вниз */
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid gray;
+}
+
+.d3{/*Трапеция */
+    height: 0;
+    width: 100px;
+    border-bottom: 100px solid yellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+.d4{/*Трапеция */
+    height: 0;
+    width: 100px;
+    border-bottom: 100px solid rgb(0, 255, 85);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+.d5{/*Трапеция */
+    height: 0;
+    width: 100px;
+    border-bottom: 100px solid rgb(78, 78, 78);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}

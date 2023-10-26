@@ -1,0 +1,26 @@
+html{
+    margin: 0;
+    box-sizing: border-box;
+    background: #f6f8f9;
+}
+h1,h2{
+    text-align: center;
+}
+h2{
+    margin-bottom: 70px;
+}
+
+.container {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.good-cart{
+    width: 250px;
+    height: 365px;
+    margin: 0 15px 0 15px;
+    padding-top: 30px;
+    background: #fff;
+    float: left;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+
+li{
+    font-family: arial;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(105, 102, 255);
+    margin-bottom: 30px;
+}
+
+li{
+    list-style-type: none;
+    border: 2px solid rgb(105, 102, 255);
+    margin: 8px;
+    padding: 4px;
+    text-align: left;
+    max-width: 170px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+li:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(105, 102, 255);
+    color: black;
+    background-image: url(plane.png);
+    background-repeat: no-repeat;
+    background-position-x: 135px;
+}
+li a:hover{
+    color: blue;
+}
+
+
+
+
